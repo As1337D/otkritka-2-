@@ -1,0 +1,48 @@
+body{
+    /* background-image: url(./Без\ названия.jfif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; */
+    background: url(./Без\ названия.jfif) no-repeat center/cover;
+    height: 100vh;
+    overflow: hidden; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card {
+    background-color: rebeccapurple;
+    max-width: 400px;
+    text-align: center;
+    border-radius: 10px;
+
+}
+.card-header {
+    background-color: plum;
+    padding: 20px;
+    border-top-left-radius:10px ;
+    border-top-right-radius: 10px;
+}
+.card-body {
+    padding: 20px;
+}
+.card-footer {
+    background-color: azure;
+    padding: 20px;
+}
+.card-btn {
+    background-color: olivedrab;
+    padding:10px 15px ;
+    cursor: pointer;
+    border-radius: 10px;
+    border: 2px solid purple;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 800;
+    transition: all 0.35s;
+}
+.card-btn:hover{
+box-shadow: 8px 5px 15px gainsboro;
+    background-color: grey;
+    transform: scale(1.02);
+}
